@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codequiz</title>
+    <link rel="stylesheet" href="assets/css/walk.css">
+</head>
+
+<body>
+    <!-- Overall container -->
+    <div class="container">
+        <!-- Top bar containing score and time -->
+        <div class="score-time-bar">
+            <button id="highScores">View High Scores</button>
+            <p id="count"></p>
+            <p>Time left:&nbsp&nbsp</p>
+        </div>
+
+        <!-- content container -->
+        <div class="content-container">
+            <!-- Quiz Introduction screen w/ start button-->
+            <header id="headerQuizIntro" class="quiz-intro-screen">
+                <h1>Coding Quiz Challenge</h1>
+                <p>Try to answer the following code related questions within the time limit. Keep in mind that incorrect
+                    answers will penalize your score/time by ten seconds!</p>
+                <button id="startQuizBtn">Start Quiz</button>
+            </header>
+
+
+            <main>
+                <!-- Quiz Q&A screen -->
+                <section id="sectionQA" class="hidden quiz-qa-screen">
+                    <h2 id="question">Question here</h2>
+                    <ul>
+                        <li><button id="a1" class="choicePicked">Answer 1</button></li>
+                        <li><button id="a2" class="choicePicked">Answer 2</button></li>
+                        <li><button id="a3" class="choicePicked">Answer 3</button></li>
+                        <li><button id="a4" class="choicePicked">Answer 4</button></li>
+                    </ul>
+                    <p id="answerResult"></p>
+                </section>
+
+                <!-- Quiz results screen -->
+                <section id="sectionResults" class="hidden quiz-results-screen">
+                    <h2>All Done!</h2>
+                    <p id="finalScore">Your final score is </p>
+                    <div>
+                        <label for="">Enter Initials:</label>
+                        <input id="initials" type="text">
+                        <button id="submit">Submit</button>
+                    </div>
+                </section>
+
+                <!-- Quiz results history screen -->
+                <section id="sectionResultsHistory" class="hidden quiz-results-history-screen">
+                    <h2 id="results-history-h2">High Scores</h2>
+                    <ul id="results-history-ul">
+                    </ul>
+                    <button id="goBack">Go Back</button>
+                    <button id="clear">Clear High Scores</button>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+<script src="assets/js/marineQuiz.js"></script>
+</html>

@@ -173,7 +173,7 @@ function checkAnswer(selectedAnswer, currentQ) {
     } else {
         answerResultEl.textContent = "Wrong!";
         // 10 seconds penalty due to wrong answer
-        initialCount = parseInt(timeCountEl.textContent) + 10;
+        initialCount = parseInt(timeCountEl.textContent) - 10;
         clearInterval(intervalId); // clear the current interval *********
         countdown();; // call countdown to update with 10 sec penalty
     }

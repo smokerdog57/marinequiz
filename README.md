@@ -1,12 +1,12 @@
-# Secure Password Generator
+# Marine Quiz
 
 #### Coder: Tom Fusco 28-Jul-2023
 #### web api(s) & JavaScript: Code Quiz
 
-<img src="assets/mockup/04-web-apis-homework-demo.gif" width=20%>
+<img src="assets/mockup/04-web-apis-homework-demo.gif" width=50%>
 
-#### Link to Deployed Application:  https://smokerdog57.github.io/codequiz/
-#### Link to GitHub repository:     https://github.com/smokerdog57/codequiz/
+#### Link to Deployed Application:  https://smokerdog57.github.io/marinequiz/
+#### Link to GitHub repository:     https://github.com/smokerdog57/marinequiz/
 
 ## User Story
 
@@ -32,7 +32,7 @@ The following animation demonstrates the application functionality:
 
 ![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.]
 
-<img src="assets/mockup/04-web-apis-homework-demo.gif" width=50%>
+<img src="assets/mockup/04-web-apis-homework-demo.gif" width=100%>
 
 ## Build, Installation and Deployment
 
